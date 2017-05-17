@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37DCEE584ECF4A3B97AE2455 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CBE86D8D3A465D996AC822 /* libPods.a */; };
+		3C2C384C66EC818E82D4299F /* libPods-YSGoogleAnalyticsExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9ED3EC85A69161CD6CC2C29 /* libPods-YSGoogleAnalyticsExampleTests.a */; };
 		B8647D7E189741DF006DB647 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8647D7D189741DF006DB647 /* Foundation.framework */; };
 		B8647D80189741DF006DB647 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8647D7F189741DF006DB647 /* CoreGraphics.framework */; };
 		B8647D82189741DF006DB647 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8647D81189741DF006DB647 /* UIKit.framework */; };
@@ -24,6 +24,7 @@
 		B8647DB5189742F9006DB647 /* YSGoogleAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = B8647DB4189742F9006DB647 /* YSGoogleAnalytics.m */; };
 		B89935E11CD7046500871D49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B89935E01CD7046500871D49 /* GoogleService-Info.plist */; };
 		B8CB01A31B6B4D080058720A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB01A21B6B4D080058720A /* TableViewController.m */; };
+		D706A0DBDF507F59A19D6E84 /* libPods-YSGoogleAnalyticsExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9807181883B778DC31650B81 /* libPods-YSGoogleAnalyticsExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3793B65196A1586B090D14A4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		59CBE86D8D3A465D996AC822 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		647EC2F28A49D7A075D520A4 /* Pods-YSGoogleAnalyticsExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSGoogleAnalyticsExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YSGoogleAnalyticsExampleTests/Pods-YSGoogleAnalyticsExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E44631385E7837FF53D1C9B /* Pods-YSGoogleAnalyticsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSGoogleAnalyticsExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YSGoogleAnalyticsExample/Pods-YSGoogleAnalyticsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		9807181883B778DC31650B81 /* libPods-YSGoogleAnalyticsExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YSGoogleAnalyticsExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A83E56CDF170B1026E1452 /* Pods-YSGoogleAnalyticsExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSGoogleAnalyticsExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YSGoogleAnalyticsExampleTests/Pods-YSGoogleAnalyticsExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9D3D7A08487049FBEB0ACBF /* Pods-YSGoogleAnalyticsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSGoogleAnalyticsExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-YSGoogleAnalyticsExample/Pods-YSGoogleAnalyticsExample.release.xcconfig"; sourceTree = "<group>"; };
 		B8647D7A189741DF006DB647 /* YSGoogleAnalyticsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSGoogleAnalyticsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8647D7D189741DF006DB647 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B8647D7F189741DF006DB647 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,7 +65,7 @@
 		B89935E01CD7046500871D49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B8CB01A11B6B4D080058720A /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		B8CB01A21B6B4D080058720A /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		F0D113FA830EF99AFF849686 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F9ED3EC85A69161CD6CC2C29 /* libPods-YSGoogleAnalyticsExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YSGoogleAnalyticsExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +76,7 @@
 				B8647D80189741DF006DB647 /* CoreGraphics.framework in Frameworks */,
 				B8647D82189741DF006DB647 /* UIKit.framework in Frameworks */,
 				B8647D7E189741DF006DB647 /* Foundation.framework in Frameworks */,
-				37DCEE584ECF4A3B97AE2455 /* libPods.a in Frameworks */,
+				D706A0DBDF507F59A19D6E84 /* libPods-YSGoogleAnalyticsExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,21 +87,13 @@
 				B8647D9D189741DF006DB647 /* XCTest.framework in Frameworks */,
 				B8647D9F189741DF006DB647 /* UIKit.framework in Frameworks */,
 				B8647D9E189741DF006DB647 /* Foundation.framework in Frameworks */,
+				3C2C384C66EC818E82D4299F /* libPods-YSGoogleAnalyticsExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6BC74E3E513871EE9E0FD0D2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F0D113FA830EF99AFF849686 /* Pods.debug.xcconfig */,
-				3793B65196A1586B090D14A4 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		B8647D71189741DF006DB647 = {
 			isa = PBXGroup;
 			children = (
@@ -107,7 +103,7 @@
 				B8647DA2189741DF006DB647 /* YSGoogleAnalyticsExampleTests */,
 				B8647D7C189741DF006DB647 /* Frameworks */,
 				B8647D7B189741DF006DB647 /* Products */,
-				6BC74E3E513871EE9E0FD0D2 /* Pods */,
+				E8D7E763E394833541CB804D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,7 +123,8 @@
 				B8647D7F189741DF006DB647 /* CoreGraphics.framework */,
 				B8647D81189741DF006DB647 /* UIKit.framework */,
 				B8647D9C189741DF006DB647 /* XCTest.framework */,
-				59CBE86D8D3A465D996AC822 /* libPods.a */,
+				9807181883B778DC31650B81 /* libPods-YSGoogleAnalyticsExample.a */,
+				F9ED3EC85A69161CD6CC2C29 /* libPods-YSGoogleAnalyticsExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -185,6 +182,17 @@
 			path = ../../Classes/YSGoogleAnalytics;
 			sourceTree = "<group>";
 		};
+		E8D7E763E394833541CB804D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E44631385E7837FF53D1C9B /* Pods-YSGoogleAnalyticsExample.debug.xcconfig */,
+				A9D3D7A08487049FBEB0ACBF /* Pods-YSGoogleAnalyticsExample.release.xcconfig */,
+				A6A83E56CDF170B1026E1452 /* Pods-YSGoogleAnalyticsExampleTests.debug.xcconfig */,
+				647EC2F28A49D7A075D520A4 /* Pods-YSGoogleAnalyticsExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,12 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8647DAC189741DF006DB647 /* Build configuration list for PBXNativeTarget "YSGoogleAnalyticsExample" */;
 			buildPhases = (
-				C354A07C935244929E9B8AF5 /* Check Pods Manifest.lock */,
+				EE68815FEDB3463E0F477362 /* [CP] Check Pods Manifest.lock */,
 				B8647D76189741DF006DB647 /* Sources */,
 				B8647D77189741DF006DB647 /* Frameworks */,
 				B8647D78189741DF006DB647 /* Resources */,
-				C2AF3C4CCE3A44B8B10B3A43 /* Copy Pods Resources */,
-				6908551E74E9CC14E543B1B2 /* Embed Pods Frameworks */,
+				AD4F79F1AEC0DDCCC677913C /* [CP] Embed Pods Frameworks */,
+				2134742FAEBC6BBE7CF82067 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8647DAF189741DF006DB647 /* Build configuration list for PBXNativeTarget "YSGoogleAnalyticsExampleTests" */;
 			buildPhases = (
+				C105789AC55ABCE17D4A2CBB /* [CP] Check Pods Manifest.lock */,
 				B8647D97189741DF006DB647 /* Sources */,
 				B8647D98189741DF006DB647 /* Frameworks */,
 				B8647D99189741DF006DB647 /* Resources */,
+				18B6C69056A218F04910D02C /* [CP] Embed Pods Frameworks */,
+				4D74FFAE0983C1ADC0219232 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,49 +293,94 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6908551E74E9CC14E543B1B2 /* Embed Pods Frameworks */ = {
+		18B6C69056A218F04910D02C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSGoogleAnalyticsExampleTests/Pods-YSGoogleAnalyticsExampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C2AF3C4CCE3A44B8B10B3A43 /* Copy Pods Resources */ = {
+		2134742FAEBC6BBE7CF82067 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSGoogleAnalyticsExample/Pods-YSGoogleAnalyticsExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C354A07C935244929E9B8AF5 /* Check Pods Manifest.lock */ = {
+		4D74FFAE0983C1ADC0219232 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSGoogleAnalyticsExampleTests/Pods-YSGoogleAnalyticsExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD4F79F1AEC0DDCCC677913C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSGoogleAnalyticsExample/Pods-YSGoogleAnalyticsExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C105789AC55ABCE17D4A2CBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE68815FEDB3463E0F477362 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -460,7 +516,7 @@
 		};
 		B8647DAD189741DF006DB647 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0D113FA830EF99AFF849686 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 7E44631385E7837FF53D1C9B /* Pods-YSGoogleAnalyticsExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -475,7 +531,7 @@
 		};
 		B8647DAE189741DF006DB647 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3793B65196A1586B090D14A4 /* Pods.release.xcconfig */;
+			baseConfigurationReference = A9D3D7A08487049FBEB0ACBF /* Pods-YSGoogleAnalyticsExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -490,6 +546,7 @@
 		};
 		B8647DB0189741DF006DB647 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A83E56CDF170B1026E1452 /* Pods-YSGoogleAnalyticsExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YSGoogleAnalyticsExample.app/YSGoogleAnalyticsExample";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -513,6 +570,7 @@
 		};
 		B8647DB1189741DF006DB647 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647EC2F28A49D7A075D520A4 /* Pods-YSGoogleAnalyticsExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YSGoogleAnalyticsExample.app/YSGoogleAnalyticsExample";
 				FRAMEWORK_SEARCH_PATHS = (

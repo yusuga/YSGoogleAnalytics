@@ -1,2 +1,9 @@
 platform :ios, '7.0'
-pod 'Google/Analytics'
+
+target 'YSGoogleAnalyticsExample' do
+  pod 'Google/Analytics'
+  
+  target 'YSGoogleAnalyticsExampleTests' do
+    inherit! :search_paths
+  end
+end
